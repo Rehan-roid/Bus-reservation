@@ -25,7 +25,7 @@ python -m http.server 8000
 npx serve .
 ```
 
-**3. Open the live demo:** https://rehan-roid.github.io/Bus-reservation/
+**3. Open the live demo:** https://rehan-roid.github.io/Bus-reservation/ — *this URL goes live once GitHub Pages is switched on, see [Deploy](#deploy).*
 
 ## Deploy
 
