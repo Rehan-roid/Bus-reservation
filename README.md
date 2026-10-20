@@ -2,7 +2,9 @@
 
 **Safe Journey · Better Tomorrow**
 
-**Live:** https://khan-travels.vercel.app
+### ▶ [Open the live demo →](https://khan-travels.vercel.app)
+
+**https://khan-travels.vercel.app** — deployed from this repository on Vercel, no install needed.
 
 A premium bus reservation website built with plain **HTML, CSS and vanilla JavaScript**. No frameworks, no build step, no backend, no database. Bookings persist in the browser's `localStorage`.
 
@@ -27,7 +29,7 @@ python -m http.server 8000
 npx serve .
 ```
 
-**3. Open the live demo:** https://khan-travels.vercel.app
+**3. Open the live demo:** [khan-travels.vercel.app](https://khan-travels.vercel.app) — the deployed build, running exactly these committed files.
 
 ## Deploy
 
@@ -41,8 +43,7 @@ npx vercel@latest deploy --prod --yes --project khan-travels
 
 No build command and no output directory are needed — Vercel serves the repository root. `.vercelignore` keeps the local verification screenshots out of the upload.
 
-**GitHub Pages:** Settings → Pages → Source: *Deploy from a branch* → Branch: `main`, folder: `/ (root)` → Save. The site appears at
-`https://<your-username>.github.io/Bus-reservation/` within a minute or two.
+**GitHub Pages (optional fallback):** nothing is published there today, so do not link to a Pages URL until you enable it. Settings → Pages → Source: *Deploy from a branch* → Branch: `main`, folder: `/ (root)` → Save, and it will serve from a minute or two later. The `.nojekyll` file is already present for this.
 
 **Netlify / Cloudflare Pages:** point them at this repo and leave the build command empty, publishing the repository root. There is nothing to compile.
 
